@@ -2,12 +2,12 @@
 
 # Software Carpentry Workshop Autopush R Code
 
-This repository is used to share code that Instructors explain in the
-[Software Carpentry][sc-uva] on 12 and 13 June 2023.
+This repository is used to share code that our instructors explain in the
+[Software Carpentry workshop][sc-uva] on 25.- 28.09.2023 by University of Amsterdam & Vrije Universiteit Amsterdam.
 
 [sc-uva]: https://ubvu.github.io/2023-09-25-uvavu/
 
-University of Amsterdam & Vrije Universiteit Amsterdam: 25.- 28.09.2023
+
 
 ## Usage for Learners
 
