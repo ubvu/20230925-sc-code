@@ -15,6 +15,11 @@ dat <- read.csv(file='data/inflammation-01.csv', header=FALSE)
 dim(dat)
 nrow(dat)
 ncol(dat)
+head(dat)
 # class()
 class(weight_kg)
 class(dat)
+# inspecting a data frame (aka table)
+dat[1,1]
+dat[2,10]
+dat[c(1,2),c(1,10)] # introducing c() 
