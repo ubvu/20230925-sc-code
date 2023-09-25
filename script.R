@@ -66,6 +66,14 @@ sd_patient_inflammation <- apply(dat, 1, sd)
 length(sd_patient_inflammation)
 # Creating your own function
 f2c <- function(temp_F){
-    temp_C <- (temp_F - 32) * 5 / 9
+    temp_C <- (temp_F - 32) * 5 / 9  # y = (x - 32) * 5 / 9
     return(temp_C)
 }
+f2c(32)
+f2c(212)
+c2k <- function(temp_C){
+    temp_K = temp_C + 273.15
+    return(temp_K)
+}
+c2k(0)
+c2k(100)
