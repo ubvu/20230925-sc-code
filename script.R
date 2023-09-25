@@ -46,3 +46,12 @@ mean(as.numeric(p01)) # ok
 class(dat[,])  # it' a data frame
 class(dat[1,]) # it's a data frame (keeps the column names)
 class(dat[,1]) # it's numbers
+summary(dat[,1:4])
+# the function apply()
+help(apply)
+?apply
+apply(dat, 1, mean)  # all rows = patients
+apply(dat, 2, mean)  # all columns = days
+animal <- c('d','o','n','k','e','y')
+
+
