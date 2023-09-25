@@ -6,3 +6,4 @@ read.csv(file = "data/commadec.txt", sep = ';', dec=',')
 weight_kg <- 55
 weight_kg
 (weight_kg <- 77)
+2.2 * weight_kg
