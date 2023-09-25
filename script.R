@@ -37,3 +37,7 @@ dat[,'V5']
 dat[39:45,'V5']
 # combining assignments <- and data frame inspection
 (p01 <- dat[1,])
+class(p01)
+max(p01) # easy
+min(p01) # easy
+median(p01) # error
