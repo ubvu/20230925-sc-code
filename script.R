@@ -10,3 +10,4 @@ weight_kg
 weight_lb <- 2.2 * weight_kg
 weight_kg <- 88
 weight_lb
+dat <- read.csv(file='data/inflammation-01.csv', header=FALSE)
