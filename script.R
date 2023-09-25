@@ -22,4 +22,6 @@ class(dat)
 # inspecting a data frame (aka table)
 dat[1,1]
 dat[2,10]
-dat[c(1,2),c(1,10)] # introducing c() 
+dat[c(1,2),c(1,10)] # introducing c()
+class(c(1,2))
+class(dat[c(1,2),c(1,10)])
