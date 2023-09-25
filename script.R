@@ -40,4 +40,9 @@ dat[39:45,'V5']
 class(p01)
 max(p01) # easy
 min(p01) # easy
-median(p01) # error
+# median(p01) # error: doesn't like data frames
+median(as.numeric(p01)) # ok
+mean(as.numeric(p01)) # ok
+class(dat[,])  # it' a data frame
+class(dat[1,]) # it's a data frame (keeps the column names)
+class(dat[,1]) # it's numbers
