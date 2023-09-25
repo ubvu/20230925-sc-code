@@ -86,9 +86,18 @@ f2k <- function(temp_F){
 f2k(32)
 # named variable (arguments)
 i1 <- 2
-mysum <- function(i1=23, i2=10){
-    output = i1 + i2
+# default (hence optional) and customized arguments of a function
+mysum <- function(a=23, b=10){
+    output = a + b
     return(output)
 }
+mysum(1,2)
+mysum(1)
+mysum()
+mysum(b=23,a=10)
+mysum(a=i1,b=i1)
+
+# plotting
+plot(avg_day_inflammation)
 
 
