@@ -31,3 +31,4 @@ dat[5:10,5:10]
 dat[5,] # shows entire row 5 (all columns)
 dat[,5] # shows entrie col 5 (all rows)
 dat[,5:7]
+dat[,] # all rows, all columns
