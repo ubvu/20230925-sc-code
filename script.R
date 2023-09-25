@@ -53,5 +53,10 @@ summary(dat[,1:4])
 apply(dat, 1, mean)  # all rows = patients
 apply(dat, 2, mean)  # all columns = days
 animal <- c('d','o','n','k','e','y')
-
+animal[-3]
+animal[-1:-3]
+# variables and apply() function
+avg_day_inflammation <- apply(dat, 2, mean)
+min_day_inflammation <- apply(dat, 2, min)
+max_day_inflammation <- apply(dat, 2, max)
 
