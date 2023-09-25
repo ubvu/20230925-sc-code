@@ -8,3 +8,5 @@ weight_kg
 (weight_kg <- 77)
 2.2 * weight_kg
 weight_lb <- 2.2 * weight_kg
+weight_kg <- 88
+weight_lb
