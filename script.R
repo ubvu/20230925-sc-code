@@ -61,5 +61,6 @@ min_day_inflammation <- apply(dat, 2, min)
 max_day_inflammation <- apply(dat, 2, max)
 length(max_day_inflammation)  # instead of dim() because...
 sd_day_inflammation <- apply(dat, 2, sd)
+length(sd_day_inflammation)
 sd_patient_inflammation <- apply(dat, 1, sd)
-
+length(sd_patient_inflammation)
