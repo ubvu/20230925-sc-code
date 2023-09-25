@@ -60,5 +60,6 @@ avg_day_inflammation <- apply(dat, 2, mean)
 min_day_inflammation <- apply(dat, 2, min)
 max_day_inflammation <- apply(dat, 2, max)
 length(max_day_inflammation)  # instead of dim() because...
-
+sd_day_inflammation <- apply(dat, 2, sd)
+sd_patient_inflammation <- apply(dat, 1, sd)
 
