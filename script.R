@@ -5,3 +5,4 @@ read.csv(file = "data/commadec.txt", sep = ';', dec=',')
 # variables
 weight_kg <- 55
 weight_kg
+(weight_kg <- 77)
