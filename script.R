@@ -111,5 +111,7 @@ analyze <- function(filename){
     avg_day_inflammation <- apply(dat, 2, mean)
     plot(avg_day_inflammation)
 }
-
+analyze('data/inflammation-01.csv')
+analyze('data/inflammation-02.csv')
+analyze('data/inflammation-03.csv')
 
