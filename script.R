@@ -99,5 +99,6 @@ mysum(a=i1,b=i1)
 
 # plotting
 plot(avg_day_inflammation)
+plot(min_day_inflammation)
 
 
