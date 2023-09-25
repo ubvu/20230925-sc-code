@@ -77,3 +77,10 @@ c2k <- function(temp_C){
 }
 c2k(0)
 c2k(100)
+c2k(f2c(32))  # nested function
+f2k <- function(temp_F){
+    temp_C <- f2c(temp_F)
+    temp_K <- c2k(temp_C)
+    return(temp_K)
+}
+f2k(32)
