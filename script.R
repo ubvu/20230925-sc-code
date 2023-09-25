@@ -28,3 +28,6 @@ class(dat[c(1,2),c(1,10)])
 # playing with (numbers that I can use as) indices
 1:5  # introducing the colon and slices
 dat[5:10,5:10]
+dat[5,] # shows entire row 5 (all columns)
+dat[,5] # shows entrie col 5 (all rows)
+dat[,5:7]
