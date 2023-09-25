@@ -10,7 +10,11 @@ weight_kg
 weight_lb <- 2.2 * weight_kg
 weight_kg <- 88
 weight_lb
+# assign a variable from reading a file
 dat <- read.csv(file='data/inflammation-01.csv', header=FALSE)
 dim(dat)
 nrow(dat)
 ncol(dat)
+# class()
+class(weight_kg)
+class(dat)
