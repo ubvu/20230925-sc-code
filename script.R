@@ -84,3 +84,11 @@ f2k <- function(temp_F){
     return(temp_K)
 }
 f2k(32)
+# named variable (arguments)
+i1 <- 2
+mysum <- function(i1, i2=10){
+    output = i1 + i2
+    return(output)
+}
+
+
