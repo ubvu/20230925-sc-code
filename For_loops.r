@@ -42,3 +42,35 @@ loop_funtion <- function(sentence){
   }
 
 print(loop_funtion(best_practice))
+
+
+## exsersize Summing values
+
+ex_vec <- c(4,8,15,16,23,42)
+
+total <- function(vec) {
+  vec_sum <- 0
+  for (num in vec){
+    vec_sum <- vec_sum + num
+  }
+  return(vec_sum)
+}
+
+total(ex_vec)
+
+
+
+
+## exsersize Exponentiation
+
+
+expo <- function(base, power){
+  result <- 1
+  for (i in seq(power)) {
+    result <- result * base
+  }
+  return(result)
+}
+
+expo(2,4)
+
