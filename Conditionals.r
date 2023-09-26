@@ -85,3 +85,39 @@ if (num > 0 || num > 50) {
   print("neither part is true")
 }
 
+
+for (f in file_list) {
+  dat <- read.csv(file = f , header = FALSE)
+  print(mean(dat$V20))
+}
+
+
+for (f in file_list) {
+  dat <- read.csv(file = f , header = FALSE)
+  mean_day20 <- mean(dat$V20)
+  if (mean_day20 > 11 && mean_day20 < 11.5){
+    analyze(f)
+    print(f)
+  }
+  }
+
+
+
+
+plot_dist <- function(x, threshold) {
+  if (length(x) > threshold) {
+    boxplot(x)
+  } else {
+    stripchart(x)
+  }
+}
+
+plot_dist2 <- function(x, threshold, use_boxplot = TRUE) {
+  if (length(x) > threshold && use_boxplot == TRUE) {
+    boxplot(x)
+  } else if (length(x) > threshold && use_boxplot == FALSE) {
+    hist(x)
+  } else {
+    stripchart(x)
+  }
+}
