@@ -14,3 +14,13 @@ analyze <- function(filename) {
 
 ## run the function on inflammation_01.csv
 analyze("data/inflammation-1.csv")
+
+
+## create list of target files
+## using regular expression to specify a subset of files
+file_list <- list.files(path = "data", pattern = "inflammation-[0-9]{2}.csv", full.names = TRUE)
+
+for (f in file_list) {
+  analyze(f)
+  print(f)
+}
