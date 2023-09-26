@@ -74,3 +74,13 @@ expo <- function(base, power){
 
 expo(2,4)
 
+
+### make list of files in a directory
+list.files(path = "data", pattern = "csv")
+
+## filenames including path from current dir
+list.files(path = "data", pattern = "csv", full.names = TRUE)
+
+## using regular expression to specify a subset of files
+list.files(path = "data", pattern = "inflammation-[0-9]{2}.csv", full.names = TRUE)
+
