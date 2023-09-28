@@ -44,10 +44,10 @@ In your local computer:
 - organize your lesson so that the files you want to share are in this working directory
 - if you already cloned this repository a while ago, `git pull` to avoid conflicts
 - in a second terminal window, install gitautopush with `pip install gitautopush`
-- in this second terminal window, start observing the folder with the command: `gitautopush --sleep <INT> /path/to/my/repo/folder`. `<INT>` is the amount of time (in seconds) between attempts to synchronise the coding in the local repository and the copy in the remote; a delay of 2-5 seconds is a reasonable estimate
+- in this second terminal window, start observing the folder with the command: `gitautopush --sleep <INT> /path/to/my/repo/folder`. `<INT>` is the amount of time (in seconds) between attempts to synchronise the coding in the local repository and the copy in the remote; a delay of 2-5 seconds is a reasonable estimate to follow the lesson closely
 - save the files in the working directory often and regularly (even automatically). The manual way is with <kbd>Ctrl</kbd>+<kbd>S</kbd>
-- double check in the second terminal window if gitautopush automatically pushes your changes to the repository: the errors `git` possibly throws should be inside the message of gitautopush  
-- once you finish your lesson, close `gitautopush` in the second terminal window with <kbd>Ctrl</kbd>+<kbd>C</kbd> or close the terminal window altogether
+- double check in the second terminal window if gitautopush automatically pushes your changes to the repository: in case of failure, the errors `git` throws should be inside the message of gitautopush  
+- once you finish your lesson, close gitautopush in the second terminal window with <kbd>Ctrl</kbd>+<kbd>C</kbd> or close the terminal window altogether
 
 ### Troubleshooting
 
