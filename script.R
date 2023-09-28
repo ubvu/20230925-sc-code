@@ -179,4 +179,3 @@ analyze('data/inflammation-01.csv')
 analyze('data/inflammation-02.csv')
 analyze('data/inflammation-03.csv')
 
-
